@@ -7,7 +7,7 @@ This is a simple web application with MVC architecture built with React that ret
 #### Clone this repository to your local machine:
 
 ```
-git clone https://github.com/
+git clone https://github.com/mesanjanasagar/react-mvc-app.git
 ```
 
 #### Install dependencies using npm:
