@@ -1,0 +1,66 @@
+.listing-page {
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filters-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filters-container input[type="text"],
+.filters-container select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filters-container input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.filters-container select {
+    margin-left: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.listing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.listing-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background-color: #f9f9f9;
+}
+
+.listing-card:hover {
+    transform: scale(1.05);
+}
+
+.listing-card h3 {
+    margin-bottom: 10px;
+}
+
+.listing-card p {
+    color: #666;
+}
